@@ -48,7 +48,7 @@ const projects = [
         'urlImg': 'img/project-cart.png',
         'urlGithub': 'https://github.com/MissSilveira/Interactive-Shopping-Cart-',
         'description': 'The Interactive Shopping Cart is a modern and user-friendly web application built using HTML, CSS, and JavaScript. This feature-rich shopping cart provides a seamless shopping experience for customers, allowing them to browse and add products to their cart with ease',
-        'url':'pages/Interactive Shopping Cart/index.html'
+        'url':'https://misssilveira.github.io/Interactive-Shopping-Cart-/'
     },
 
     {
@@ -56,7 +56,7 @@ const projects = [
         'urlImg': 'img/project-age.png',
         'urlGithub': 'https://github.com/MissSilveira/Age-Calculator',
         'description': 'This Age Calculator is a simple web application built using HTML, CSS, and JavaScript that allows users to calculate their age based on their birth date. With an intuitive and user-friendly interface, this tool provides a hassle-free way for anyone to determine their age quickly.',
-        'url': 'pages/age calculator/index.html'
+        'url': 'https://misssilveira.github.io/Age-Calculator/'
     },
 
     {
@@ -64,7 +64,7 @@ const projects = [
         'urlImg': 'img/project-dictionary.png',
         'urlGithub': 'https://github.com/MissSilveira/Interactive-Dictionary---HTML-CSS-JavaScript-Free-Dictionary-API',
         'description': 'Welcome to the Interactive Dictionary repository! This project is a user-friendly web-based dictionary built using HTML, CSS, and JavaScript, leveraging the power of the Free Dictionary API.',
-        'url': 'pages/Interactive-Dictionary---HTML-CSS-JavaScript-Free-Dictionary-API/index.html'
+        'url': 'https://misssilveira.github.io/Interactive-Dictionary---HTML-CSS-JavaScript-Free-Dictionary-API/'
     },
 
     {
@@ -72,7 +72,7 @@ const projects = [
         'urlImg': 'img/project-psycho.png',
         'urlGithub': 'https://github.com/MissSilveira/Website-Clone---psychoterapy',
         'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet accusamus laudantium, excepturi sunt, velit mollitia nam repudiandae neque, molestias veritatis aspernatur magnam pariatur ipsum culpa corporis fuga? Pariatur, mollitia!',
-        'url': 'pages/Website-Clone---psychoterapy/index.html'
+        'url': 'https://misssilveira.github.io/Website-Clone---psychoterapy/'
     },
 
     {
@@ -80,7 +80,7 @@ const projects = [
         'urlImg': 'img/project-travel.png',
         'urlGithub': 'https://github.com/MissSilveira/Website-Clone---Travel-agency',
         'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet accusamus laudantium, excepturi sunt, velit mollitia nam repudiandae neque, molestias veritatis aspernatur magnam pariatur ipsum culpa corporis fuga? Pariatur, mollitia!',
-        'url': 'pages/Website-Clone---Travel-agency/index.html'
+        'url': 'https://misssilveira.github.io/Website-Clone---Travel-agency/'
     },
 
     {
@@ -88,7 +88,7 @@ const projects = [
         'urlImg': 'img/project-velocity.png',
         'urlGithub': 'https://github.com/MissSilveira/velocity',
         'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet accusamus laudantium, excepturi sunt, velit mollitia nam repudiandae neque, molestias veritatis aspernatur magnam pariatur ipsum culpa corporis fuga? Pariatur, mollitia!',
-        'url': 'pages/Velocity/index.html'
+        'url': 'https://misssilveira.github.io/velocity/'
     },
 
     {
@@ -96,7 +96,7 @@ const projects = [
         'urlImg': 'img/project-food.png',
         'urlGithub': 'https://github.com/MissSilveira/Website-Clone---onlyQualityFood',
         'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet accusamus laudantium, excepturi sunt, velit mollitia nam repudiandae neque, molestias veritatis aspernatur magnam pariatur ipsum culpa corporis fuga? Pariatur, mollitia!',
-        'url': 'pages/Only Quality Food/index.html'
+        'url': 'https://misssilveira.github.io/Website-Clone---onlyQualityFood/'
     },
 
 ]
