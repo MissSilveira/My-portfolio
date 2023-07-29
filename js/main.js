@@ -71,7 +71,7 @@ const projects = [
         'name': 'Website clone - Psychoterapy',
         'urlImg': 'img/project-psycho.png',
         'urlGithub': 'https://github.com/MissSilveira/Website-Clone---psychoterapy',
-        'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet accusamus laudantium, excepturi sunt, velit mollitia nam repudiandae neque, molestias veritatis aspernatur magnam pariatur ipsum culpa corporis fuga? Pariatur, mollitia!',
+        'description': 'This is my user-friendly website clone, fully developed with HTML and CSS. I faithfully reproduced the layout, style, and functionalities of the original website to provide a seamless and enjoyable online experience.',
         'url': 'https://misssilveira.github.io/Website-Clone---psychoterapy/'
     },
 
@@ -79,7 +79,7 @@ const projects = [
         'name': 'Website-Clone---Travel-agency',
         'urlImg': 'img/project-travel.png',
         'urlGithub': 'https://github.com/MissSilveira/Website-Clone---Travel-agency',
-        'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet accusamus laudantium, excepturi sunt, velit mollitia nam repudiandae neque, molestias veritatis aspernatur magnam pariatur ipsum culpa corporis fuga? Pariatur, mollitia!',
+        'description': 'Step into a realm of innovative web design as we present our captivating website clone, meticulously crafted with HTML, CSS, and the enchanting capabilities of JavaScript. Our clone showcases the artful integration of JavaScript effects, providing an immersive and visually delightful browsing experience.',
         'url': 'https://misssilveira.github.io/Website-Clone---Travel-agency/'
     },
 
@@ -87,7 +87,7 @@ const projects = [
         'name': 'Website-Clone---Velocity',
         'urlImg': 'img/project-velocity.png',
         'urlGithub': 'https://github.com/MissSilveira/velocity',
-        'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet accusamus laudantium, excepturi sunt, velit mollitia nam repudiandae neque, molestias veritatis aspernatur magnam pariatur ipsum culpa corporis fuga? Pariatur, mollitia!',
+        'description': 'I am thrilled to present my web development project, a charming website built using the foundational technologies of HTML, CSS, and JavaScript. This website consists of two well-defined pages, designed to provide an intuitive and pleasant user experience',
         'url': 'https://misssilveira.github.io/velocity/'
     },
 
@@ -95,7 +95,7 @@ const projects = [
         'name': 'Website-Clone--- Only Quality Food',
         'urlImg': 'img/project-food.png',
         'urlGithub': 'https://github.com/MissSilveira/Website-Clone---onlyQualityFood',
-        'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet accusamus laudantium, excepturi sunt, velit mollitia nam repudiandae neque, molestias veritatis aspernatur magnam pariatur ipsum culpa corporis fuga? Pariatur, mollitia!',
+        'description': 'Im excited to present my HTML and CSS template clone, a project Ive crafted to enhance my web development competencies. This endeavor serves as a training ground where Ive replicated a carefully designed template using HTML and CSS, allowing me to sharpen my abilities and refine my understanding of modern web design principles.',
         'url': 'https://misssilveira.github.io/Website-Clone---onlyQualityFood/'
     },
 
@@ -113,7 +113,7 @@ const exibeProjetos = () =>{
             <h3>${projeto.name}</h3>
             <p>${projeto.description}</p>
             <div class="projects-link">
-                <a href="${projeto.urlGithub}" class="btn-github">GitHub</a>
+                <a href="${projeto.urlGithub}" class="btn-github">View in repository</a>
                 <a href="${projeto.url}" class="btn-project">See project</a>
         </div>
         `
