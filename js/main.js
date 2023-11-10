@@ -43,7 +43,7 @@ if(target.length){
 const projects = [
     {
         'name': 'Interactive shooping cart',
-        'urlImg': 'img/project-cart.png',
+        'urlImg': '/img/project-cart.png',
         'urlGithub': 'https://github.com/MissSilveira/Interactive-Shopping-Cart-',
         'description': 'The Interactive Shopping Cart is a modern and user-friendly web application built using HTML, CSS, and JavaScript. This feature-rich shopping cart provides a seamless shopping experience for customers, allowing them to browse and add products to their cart with ease',
         'url':'https://misssilveira.github.io/Interactive-Shopping-Cart-/'
@@ -51,7 +51,7 @@ const projects = [
 
     {
         'name': 'Age Calculator',
-        'urlImg': 'img/project-age.png',
+        'urlImg': '/img/project-age.png',
         'urlGithub': 'https://github.com/MissSilveira/Age-Calculator',
         'description': 'This Age Calculator is a simple web application built using HTML, CSS, and JavaScript that allows users to calculate their age based on their birth date. With an intuitive and user-friendly interface, this tool provides a hassle-free way for anyone to determine their age quickly.',
         'url': 'https://misssilveira.github.io/Age-Calculator/'
@@ -59,7 +59,7 @@ const projects = [
 
     {
         'name': 'Dictionary',
-        'urlImg': 'img/project-dictionary.png',
+        'urlImg': '/img/project-dictionary.png',
         'urlGithub': 'https://github.com/MissSilveira/Interactive-Dictionary---HTML-CSS-JavaScript-Free-Dictionary-API',
         'description': 'Welcome to the Interactive Dictionary repository! This project is a user-friendly web-based dictionary built using HTML, CSS, and JavaScript, leveraging the power of the Free Dictionary API.',
         'url': 'https://misssilveira.github.io/Interactive-Dictionary---HTML-CSS-JavaScript-Free-Dictionary-API/'
@@ -67,7 +67,7 @@ const projects = [
 
     {
         'name': 'Website clone - Psychoterapy',
-        'urlImg': 'img/project-psycho.png',
+        'urlImg': '/img/project-psycho.png',
         'urlGithub': 'https://github.com/MissSilveira/Website-Clone---psychoterapy',
         'description': 'This is my user-friendly website clone, fully developed with HTML and CSS. I faithfully reproduced the layout, style, and functionalities of the original website to provide a seamless and enjoyable online experience.',
         'url': 'https://misssilveira.github.io/Website-Clone---psychoterapy/'
@@ -75,7 +75,7 @@ const projects = [
 
     {
         'name': 'Website-Clone---Travel-agency',
-        'urlImg': 'img/project-travel.png',
+        'urlImg': '/img/project-travel.png',
         'urlGithub': 'https://github.com/MissSilveira/Website-Clone---Travel-agency',
         'description': 'Step into a realm of innovative web design as we present our captivating website clone, meticulously crafted with HTML, CSS, and the enchanting capabilities of JavaScript. Our clone showcases the artful integration of JavaScript effects, providing an immersive and visually delightful browsing experience.',
         'url': 'https://misssilveira.github.io/Website-Clone---Travel-agency/'
@@ -83,7 +83,7 @@ const projects = [
 
     {
         'name': 'Website-Clone---Velocity',
-        'urlImg': 'img/project-velocity.png',
+        'urlImg': '/img/project-velocity.png',
         'urlGithub': 'https://github.com/MissSilveira/velocity',
         'description': 'I am thrilled to present my web development project, a charming website built using the foundational technologies of HTML, CSS, and JavaScript. This website consists of two well-defined pages, designed to provide an intuitive and pleasant user experience',
         'url': 'https://misssilveira.github.io/velocity/'
@@ -91,7 +91,7 @@ const projects = [
 
     {
         'name': 'Website-Clone--- Only Quality Food',
-        'urlImg': 'img/project-only.png',
+        'urlImg': '/img/project-only.png',
         'urlGithub': 'https://github.com/MissSilveira/Website-Clone---onlyQualityFood',
         'description': 'Im excited to present my HTML and CSS template clone, a project Ive crafted to enhance my web development competencies. This endeavor serves as a training ground where Ive replicated a carefully designed template using HTML and CSS, allowing me to sharpen my abilities and refine my understanding of modern web design principles.',
         'url': 'https://misssilveira.github.io/Website-Clone---onlyQualityFood/'
@@ -99,7 +99,7 @@ const projects = [
 
     {
         'name': 'Review: Four Seasons Seychelles',
-        'urlImg': 'img/project-review.png',
+        'urlImg': '/img/project-review.png',
         'urlGithub': 'https://github.com/MissSilveira/Responsive-Cloning-Reproduction-of-Review-Four-Seasons-Seychelles-Website',
         'description': 'Responsive recreation of Review: Four Seasons Seychelles website using HTML, CSS & JS/jQuery. Faithfully translated template with interactivity. Adapts seamlessly to diverse screen sizes.',
         'url': 'https://misssilveira.github.io/Responsive-Cloning-Reproduction-of-Review-Four-Seasons-Seychelles-Website/'
@@ -107,7 +107,7 @@ const projects = [
 
     {
         'name': 'Jaime consultancy website',
-        'urlImg': 'img/project-jaime.png',
+        'urlImg': '/img/project-jaime.png',
         'urlGithub': 'https://github.com/MissSilveira/Jaime-Consultancy-Website-Built-with-HTML-CSS-JavaScript-and-jQuery',
         'description': 'This responsive site for Jaime Consultancy showcases technical skills with HTML, CSS, JS, and jQuery. It features animations, arrays, and Flexbox layouts',
         'url': 'https://misssilveira.github.io/Jaime-Consultancy-Website-Built-with-HTML-CSS-JavaScript-and-jQuery/'
@@ -115,7 +115,7 @@ const projects = [
 
     {
         'name': 'NOMA | AUTHENTIC - HTML, CSS Grid page',
-        'urlImg': 'img/project-noma.png',
+        'urlImg': '/img/project-noma.png',
         'urlGithub': 'https://github.com/MissSilveira/HTML-CSS-Grid-Page',
         'description': 'Single-page grid layout crafted in HTML & CSS, mirroring Noma Authentic. Efficiently designed for responsive viewing across various devices',
         'url': 'https://misssilveira.github.io/HTML-CSS-Grid-Page/'
@@ -132,8 +132,11 @@ const exibeProjetos = () =>{
             <img src="${projeto.urlImg}" alt="">
         </div>
         <div class="project-right"> 
-            <h3>${projeto.name}</h3>
-            <p>${projeto.description}</p>
+            <div class="text"> 
+                <h3>${projeto.name}</h3>
+                <p>${projeto.description}</p>
+            </div>
+            
             <div class="projects-link">
                 <a href="${projeto.urlGithub}" class="btn-github">View in repository</a>
                 <a href="${projeto.url}" class="btn-project">See project</a>
