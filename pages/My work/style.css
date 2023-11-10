@@ -2,6 +2,75 @@ html{
     font-size: 10px;
 }
 
+menu{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    padding: 1% 3%;
+    background-color: #13315c;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+    border-bottom: 2px solid #eef4ed;    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 9999;
+}
+
+#menu{
+    display: none;
+    width: 40px;
+}
+
+#logo{
+    font-size: 2.5em;
+    color: #eef4ed;
+    text-decoration: none;
+    font-family: 'Roboto mono', sans-serif;
+}
+
+nav{
+    min-width: 40%;
+    height: 100%;
+    display: flex;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+}
+
+nav ul li{
+    list-style: none;
+    width: 120px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 400; 
+    color: #eef4ed;
+    transition: .4s;
+}
+
+.nav-link:hover{
+    color: #ffc857;
+}
+
+menu nav ul li #contact-nav{
+    background-color: #ffc857;
+    width: 100%;
+    color: #171818;
+    padding: 3% 2%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border-radius: 5px;
+}
+
 .work{
     background-color: #eef4ed;
     min-width: 100%;
@@ -99,6 +168,49 @@ html{
 #seeProject{
     color: #0b2545;
     background-color: #ffc857;
+}
+
+footer{
+    background-color: #13315c;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 7%;
+}
+
+footer h3{
+    font-family: 'Roboto mono', sans-serif;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    color: #eef4ed;
+    list-style: none;
+}
+
+footer div ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    font-size: 1.6em;
+    list-style: none;
+}
+
+footer div a, footer div p{
+    color: #eef4ed;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer div a{
+    text-decoration: underline;
+}
+
+footer div img{
+    width: 10%;
 }
 
 @media only screen and (max-width:1200px){

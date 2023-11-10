@@ -9,7 +9,8 @@
 }
 
 ::selection{
-    background: var(--blue);
+    background: #ffc857;
+    color: #171818;
 }
 
 :root{
